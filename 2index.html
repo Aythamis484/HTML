@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Historia del Fútbol</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculamos el archivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>La Historia del Fútbol</h1>
+        <p>Explora la evolución de este deporte a lo largo de los siglos.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#origen">Orígenes del Fútbol</a></li>
+            <li><a href="#moderno">El Fútbol Moderno</a></li>
+            <li><a href="#competiciones">Competiciones Internacionales</a></li>
+            <li><a href="#informacion">Más Información</a></li>
+            <li><a href="#imagenes">Imágenes del Fútbol</a></li>
+            <li><a href="#tabla">Tabla de Competiciones</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="origen">
+            <h2>Orígenes del Fútbol</h2>
+            <p>El fútbol tiene una larga historia que se remonta a miles de años. Se han encontrado juegos similares en civilizaciones antiguas como China y Grecia.</p>
+        </section>
+
+        <section id="moderno">
+            <h2>El Fútbol Moderno</h2>
+            <p>El fútbol moderno comenzó a tomar forma en el siglo XIX en Inglaterra, donde se establecieron las primeras reglas del juego.</p>
+        </section>
+
+        <section id="competiciones">
+            <h2>Competiciones Internacionales</h2>
+            <p>Hoy en día, competiciones como la Copa del Mundo y la UEFA Champions League son eventos que atraen a millones de aficionados alrededor del mundo.</p>
+        </section>
+
+        <section id="informacion">
+            <h2>Más Información</h2>
+            <p>Puedes aprender más sobre la historia del fútbol en los siguientes enlaces:</p>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/F%C3%BAtbol" target="_blank">Wikipedia - Fútbol</a></li>
+                <li><a href="https://www.fifa.com" target="_blank">FIFA</a></li>
+                <li><a href="https://www.uefa.com" target="_blank">UEFA</a></li>
+            </ul>
+        </section>
+
+        <section id="imagenes">
+            <h2>Imágenes del Fútbol</h2>
+            <figure>
+                <img src="imagenes/futbol1.jpg" alt="Jugadores de fútbol" width="100%">
+                <figcaption>Jugadores de fútbol en acción.</figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/futbol2.jpg" alt="Estadio de fútbol" width="100%">
+                <figcaption>Estadio lleno durante un partido.</figcaption>
+            </figure>
+        </section>
+
+        <section id="tabla">
+            <h2>Tabla de Competiciones</h2>
+            <p>Consulta nuestra tabla de competiciones <a href="tabla.html">aquí</a>.</p>
+        </section>
+    </main>
+
+    <body>
+        <h1>Formulario de Registro de Datos</h1>
+    
+        <!-- Formulario -->
+        <form id="formulario" action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+    
+            <label for="equipo">Equipo:</label>
+            <input type="text" id="equipo" name="equipo" required><br>
+    
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+    
+            <label for="posicion">Posición:</label>
+            <input type="text" id="posicion" name="posicion" required><br>
+    
+            <label for="nombre-apellidos">Nombre y Apellidos:</label>
+            <input type="text" id="nombre-apellidos" name="nombre-apellidos" value="Aythami Santana" hidden><br>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    
+        <h2>Datos Registrados</h2>
+        <!-- Tabla donde se mostrarán los datos -->
+        <table id="tablaDatos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Equipo</th>
+                    <th>Edad</th>
+                    <th>Posición</th>
+                    <th>Nombre y Apellidos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Las filas se agregarán aquí dinámicamente -->
+            </tbody>
+        </table>
+</form>
+
+    <footer>
+        <p>&copy; 2024 Historia del Fútbol. Todos los derechos reservados.</p>
+        <div id="fecha-hora">
+            <!-- Aquí se mostrará la fecha y hora -->
+        </div>
+    </footer>
+
+    <!-- Vinculamos el archivo JavaScript externo -->
+    <script src="1script.js"></script>
+</body>
+</html>
+
